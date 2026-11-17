@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>REVENDA DE MAQUINAS AGRICOLAS</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <header>
+    <h1>LOJA JOHN DEERE</h1>
+  </header>
+
+  <main>
+    <div class="cartao">
+      <h2>Atendimento Especializado para Clientes de todo Brasil e Exterior Maquinas de <br>
+        Ultima Geração com a mais alta tecnologia e os melhores preços do mercado</h2>
+      
+      <div class="area-imagem">
+        <img 
+          src="imagem1.jpg" alt="Frente da loja em cores verde com os letreiros amarelo" 
+          class="foto-destaque">
+      </div>
+
+      <p>Atendimento especializado em todas as etapas, Financiamento proprio, garantia estendida de 5 anos, peças e acessorios.</p>
+      
+      <form>
+        <p>
+          <label for="nome-visitante">Seu Nome:</label>
+          <input type="text" id="nome-visitante" placeholder="Digite seu nome">
+        </p>
+        <p>
+        <label for="email">Seu E-mail:</label>
+        <input type="email" id="email" placeholder="EX: forcato.e@gmail.com" required>
+        </p>
+         <h3>Escolha a Opção Desejada</h3>
+        
+        <fieldset>
+          <legend>1. Escolha uma das opções deseja:</legend>
+          
+          <input type="radio" id="op1" name="favorito" value="opcao1">
+          <label for="op1">Financiamento Total Com um ano de carencia</label><br>
+
+          <input type="radio" id="op2" name="favorito" value="opcao2">
+          <label for="op2">Financiamento Com entrada de 50% e o restante sem Juros</label><br>
+
+          <input type="radio" id="op3" name="favorito" value="opcao2">
+          <label for="op3">Pagamento a Vista com desconto de 10%</label>
+        </fieldset>
+        
+        <fieldset>
+          <legend>2. Marque todos os Opcionais (Checkbox):</legend>
+
+          <input type="checkbox" id="check1" name="interesses" value="item1">
+          <label for="check1">Maquina e equipamentos</label><br>
+
+          <input type="checkbox" id="check2" name="interesses" value="item2">
+          <label for="check2">Seguro total e plano de fidelidade</label><br>
+
+          <input type="checkbox" id="check3" name="interesses" value="item3">
+          <label for="check3">Garantia estendida</label>
+        </fieldset>
+
+        <button type="submit">Enviar Respostas</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>Trabalho 2 16-11-2026 Atividade de fixação de CSS</p>
+  </footer>
+
+</body>
+</html>
